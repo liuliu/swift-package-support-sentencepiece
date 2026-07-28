@@ -1,0 +1,10 @@
+This directory vendors the `absl/` source tree and LICENSE from:
+
+  https://github.com/abseil/abseil-cpp
+
+Version: 20260526.0
+Commit: 5650e9cf76d3be4318d5fa3af38ee483ddfd5e4a
+
+SentencePiece 0.2.2 pins the same Abseil release in its top-level
+CMakeLists.txt. The Swift package manifest compiles the implementation files
+needed by SentencePiece while keeping the complete header/source tree here.
